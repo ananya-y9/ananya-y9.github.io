@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7f6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #f5f7f6;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex; 
+    gap: 15px; 
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; /* for hovering*/
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.bio {
+    max-width: 700px;
+    margin: 0 auto 20px; 
+    text-align: left;
+}
+
+
+.bio-container {
+    display: flex; 
+    gap: 20px; 
+    align-items: center; /* Vertically align image and text */
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.bio-image {
+    width: 200px;
+    height: auto;
+}
+
+.bio ul {
+    list-style-position: inside;
+    padding: 0; 
+    margin: 0; 
+}
+
+.bio li {
+    margin-bottom: 10px; 
+    font-size: 1rem; 
+}
+
+.content {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.bio-content {
+    margin-top: 30px; 
+    border-top: 1px solid #ddd; 
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.bio-content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bio-content p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+h2, h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.art-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.art-gallery img {
+    width: auto;
+    max-width: 80%; 
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+    justify-items: center; 
+}
+
+.gallery img {
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.social-box {
+    background-color: #ffffff; 
+    border-radius: 12px; /* rounded corner!*/
+    padding: 20px 20px; 
+    margin: 20px auto;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.social-box h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    margin-top: 0;
+}
+
+.social-box .links {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-box .links a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-links {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.social-links .icon {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.875rem;
+    padding: 10px;
+}
+
+.social-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f5f7f6;
+    border-top: 1px solid #ddd;
+}
+
+.instagram-icon {
+    width: 24px;
+    height: 24px;
+}
+
